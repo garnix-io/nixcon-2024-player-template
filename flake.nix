@@ -18,8 +18,11 @@
     in
     (flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
       let pkgs = import nixpkgs { inherit system; };
-      in {
-        packages.webserver = pkgs.hello;
+      in rec {
+        packages = {
+          webserver = pkgs.hello;
+          default = packages.webserver;
+        };
       }))
     //
     {
