@@ -36,7 +36,7 @@
               githubRepo = "nixcon-2024-player-template";
               # The nix derivation that will be used as the server process. It
               # should open a webserver on port 8080.
-              webserver = self.packages.${system}.web-server;
+              webserver = self.packages.${system}.webserver;
               # If you want to log in to your deployed server, put your SSH key
               # here:
               sshKey = "<YOUR_PUBLIC_SSH_KEY>";
