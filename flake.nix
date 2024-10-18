@@ -6,7 +6,7 @@
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   inputs.garnix-lib = {
-    url = "github:garnix-io/garnix-lib";
+    url = "github:jfroche/garnix-lib/jfroche/fix-missing-modules";
     inputs = {
       nixpkgs.follows = "nixpkgs";
     };
@@ -46,6 +46,7 @@
           garnix-lib.nixosModules.garnix
           self.nixosModules.nixcon-garnix-player-module
           ({ pkgs, ... }: {
+
             playerConfig = {
               # Your github user:
               githubLogin = "GITHUB_USER";
