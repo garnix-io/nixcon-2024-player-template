@@ -25,26 +25,27 @@
         ]
       },
       "locked": {
-        "lastModified": 1727096244,
-        "narHash": "sha256-aTF28cd+xUyMhBuyMsSdckdrR54GsagdR8F3fJV2fek=",
-        "owner": "garnix-io",
+        "lastModified": 1729286084,
+        "narHash": "sha256-ocpFc5veCkwh243MSWCcrFGTEEOMsMobbR7wKuk4f+g=",
+        "owner": "jfroche",
         "repo": "garnix-lib",
-        "rev": "d129e58cf37870a96e447c5347f5e827b6166df4",
+        "rev": "ba4eabbb3c39dc175cde346b3bcc100d97938ea0",
         "type": "github"
       },
       "original": {
-        "owner": "garnix-io",
+        "owner": "jfroche",
+        "ref": "jfroche/fix-missing-modules",
         "repo": "garnix-lib",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1728538411,
-        "narHash": "sha256-f0SBJz1eZ2yOuKUr5CA9BHULGXVSn6miBuUWdTyhUhU=",
+        "lastModified": 1728979988,
+        "narHash": "sha256-GBJRnbFLDg0y7ridWJHAP4Nn7oss50/VNgqoXaf/RVk=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b69de56fac8c2b6f8fd27f2eca01dcda8e0a4221",
+        "rev": "7881fbfd2e3ed1dfa315fca889b2cfd94be39337",
         "type": "github"
       },
       "original": {
